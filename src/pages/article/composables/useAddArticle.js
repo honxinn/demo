@@ -10,6 +10,7 @@ import {
 import services from '@/services/api.js'
 
 export function useAddArticle() {
+  console.log('1')
   const router = useRouter()
   const title = ref('')
   const content = ref('# 说点什么吧')
