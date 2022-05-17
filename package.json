@@ -1,0 +1,35 @@
+{
+  "name": "campussns",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "apexcharts": "^3.33.1",
+    "axios": "^0.26.0",
+    "element-plus": "^2.0.2",
+    "lodash": "^4.17.21",
+    "mavon-editor": "^3.0.0-beta",
+    "moment": "^2.29.1",
+    "pinia": "^2.0.11",
+    "qs": "^6.10.3",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.12",
+    "vue3-apexcharts": "^1.4.1",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.49.7",
+    "sass-loader": "^12.6.0",
+    "unplugin-auto-import": "^0.6.0",
+    "unplugin-vue-components": "^0.17.18",
+    "vite": "^2.8.0",
+    "vite-plugin-style-import": "^1.4.1"
+  }
+}

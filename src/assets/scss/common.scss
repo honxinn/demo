@@ -1,0 +1,43 @@
+$sidebar-width: 240px;
+
+$primary: #7367f0; // 主色
+$success : rgb(23, 201, 100);
+$danger: rgb(242, 19, 93);
+$warning:rgb(255, 130, 0);
+$dark: rgb(36, 33, 69);
+
+
+$textgrey: #acacac;
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #d1d1d3;
+  border: 2px solid #ffffff;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: rgb(245, 245, 245);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+}
+
+.iconfont {
+  display: inline-block !important;
+  width: 40px !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  border-radius: 50% 50% !important;
+  font-size: 20px !important;
+}
+
+li {
+  list-style: none;
+}
